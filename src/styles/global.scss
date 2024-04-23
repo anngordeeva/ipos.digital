@@ -1,0 +1,41 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+textarea,
+input,
+button,
+select,
+a {
+  outline: none;
+  border-radius: 0;
+
+  font-weight: 400;
+  font-family: 'Roboto';
+  touch-action: manipulation;
+}
+
+html,
+body {
+  height: 100%;
+
+  font-family: 'Roboto';
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
